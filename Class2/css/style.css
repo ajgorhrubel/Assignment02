@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navigation {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+#navigation > ul{
+    list-style: none;
+    display: flex;
+    padding-right: 50px;
+    
+
+}
+
+#navigation > ul > li {
+    padding: 10px,0 px;
+}
+
+#navigation >ul > li> a {
+    text-decoration: none;
+    color: rgb(143, 5, 5);
+    font-size: 20px;
+    margin: 10px;
+
+}
+.logo > h2 {
+    margin-left: 50px;
+    
+}
